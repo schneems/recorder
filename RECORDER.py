@@ -4,6 +4,9 @@ import os.path
 import CALENDARWIDGET as cal
 import calendar
 
+import gettext
+gettext.install("recorder", "./locale")
+
 # Setup Window
 root = tk.Tk()
 root.title("RECORDER")
