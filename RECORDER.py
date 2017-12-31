@@ -4,16 +4,19 @@ import os.path
 import CALENDARWIDGET as cal
 import calendar
 
+import gettext
+gettext.install("recorder", "./locale")
+
 # Setup Window
 root = tk.Tk()
-root.title("RECORDER")
+root.title(_("Recorder"))
 
 # Configure Columns
 root.columnconfigure(0, weight=1)
 root.columnconfigure(3, weight=1)
 
 # Show Loading Label
-loadlabel = tk.Label(root, text="Loading data...")
+loadlabel = tk.Label(root, text=_("Loading data..."))
 loadlabel.grid(row=0, column=0)
 root.update()
 
@@ -48,28 +51,28 @@ def saverecord(title, desc, date):
 # Setup "New" form
 addframe = tk.Frame(root)
 addframe.grid(row=0, column=1, sticky="ew")
-addlabel = tk.Label(addframe, text="Add Record")
+addlabel = tk.Label(addframe, text=_("Add Record"))
 addlabel.grid(row=0, columnspan=2, sticky="ew")
 
-addtitlelabel = tk.Label(addframe, text="Record Title")
+addtitlelabel = tk.Label(addframe, text=_("Record Title"))
 addtitlelabel.grid(row=1, column=0)
 addtitle = tk.Entry(addframe)
 addtitle.grid(row=1, column=1, sticky="ew")
-adddesclabel = tk.Label(addframe, text="Record Description")
+adddesclabel = tk.Label(addframe, text=_("Record Description"))
 adddesclabel.grid(row=2, columnspan=2, sticky="ew")
 adddesc = tk.Text(addframe)
 adddesc.grid(row=3, columnspan=2, sticky="ew")
-adddatelabel = tk.Label(addframe, text="Select Date")
+adddatelabel = tk.Label(addframe, text=_("Select Date"))
 adddatelabel.grid(row=4, sticky="ew")
 adddate = cal.Calendar(addframe)
 adddate.grid(row=4, column=1, sticky="ew")
-addsubmit = tk.Button(addframe, text="Save", command=lambda: saverecord(addtitle.get(), adddesc.get(0.0, tk.END), adddate.selection))
+addsubmit = tk.Button(addframe, text=_("Save"), command=lambda: saverecord(addtitle.get(), adddesc.get(0.0, tk.END), adddate.selection))
 addsubmit.grid(row=5, columnspan=2, sticky="ew")
 
 # Setup View Area
 seeframe = tk.Frame(root)
 seeframe.grid(row=0, column=2, sticky="nesw")
-seelabel = tk.Label(seeframe, text="See Records")
+seelabel = tk.Label(seeframe, text=_("See Records"))
 seelabel.grid(row=0, sticky="ew")
 
 seeframescrollarea = tk.Frame(seeframe)

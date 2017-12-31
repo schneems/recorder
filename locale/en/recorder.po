@@ -1,0 +1,46 @@
+# RECORDER
+# Licensed under the MIT license, 2017
+# Daniel Thwaites <danthwaites30@btinternet.com>
+#
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2017-12-31 10:36+GMT\n"
+"PO-Revision-Date: 2017-12-31 10:50+GMT\n"
+"Last-Translator: Daniel Thwaites <danthwaites30@btinternet.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: RECORDER.py:12
+msgid "Recorder"
+msgstr "Recorder"
+
+#: RECORDER.py:19
+msgid "Loading data..."
+msgstr "Loading data..."
+
+#: RECORDER.py:54
+msgid "Add Record"
+msgstr "Add Record"
+
+#: RECORDER.py:57
+msgid "Record Title"
+msgstr "Record Title"
+
+#: RECORDER.py:61
+msgid "Record Description"
+msgstr "Record Description"
+
+#: RECORDER.py:65
+msgid "Select Date"
+msgstr "Select Date"
+
+#: RECORDER.py:69
+msgid "Save"
+msgstr "Save"
+
+#: RECORDER.py:75
+msgid "See Records"
+msgstr "See Records"
+
