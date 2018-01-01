@@ -1,49 +1,41 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR ORGANIZATION
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2017-12-31 10:36+GMT\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Generated-By: pygettext.py 1.5\n"
-
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: RECORDER\n"
+"Language: zh-TW\n"
 
 #: RECORDER.py:12
 msgid "Recorder"
-msgstr ""
+msgstr "錄音機"
 
 #: RECORDER.py:19
 msgid "Loading data..."
-msgstr ""
+msgstr "加載數據中..."
 
 #: RECORDER.py:54
 msgid "Add Record"
-msgstr ""
+msgstr "添加記錄"
 
 #: RECORDER.py:57
 msgid "Record Title"
-msgstr ""
+msgstr "記錄標題"
 
 #: RECORDER.py:61
 msgid "Record Description"
-msgstr ""
+msgstr "記錄說明"
 
 #: RECORDER.py:65
 msgid "Select Date"
-msgstr ""
+msgstr "選擇日期"
 
 #: RECORDER.py:69
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: RECORDER.py:75
 msgid "See Records"
-msgstr ""
+msgstr "請參閱記錄"
 
