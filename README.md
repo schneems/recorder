@@ -1,4 +1,4 @@
-# recorder
+# recorder [![Help Contribute to Open Source](https://www.codetriage.com/stellardoor5319/recorder/badges/users.svg)](https://www.codetriage.com/stellardoor5319/recorder)
 
 https://poeditor.com/join/project/3wDxoaT20m
 
